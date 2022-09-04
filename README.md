@@ -11,7 +11,7 @@ Don't pass device name into `browser` property, it is required to pass either `b
 Specify custom capability matcher in hub config json (see example).
 ```json
 {
-  "capabilityMatcher": "com.wdio.qa.grid.matcher.CapabilityMatcher",
+  "capabilityMatcher": "com.selenium.grid.matcher.CapabilityMatcher",
   "registry": "org.openqa.grid.internal.DefaultGridRegistry"
 }
 ```
